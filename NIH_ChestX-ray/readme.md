@@ -9,7 +9,7 @@
 ```
 04/04/2023 20:01:03 - INFO - _main__ - Validation Results
 04/04/2023 20:01:03 - INFO - _main__ - Valid Loss: 0.18978
-04/04/2023 20:01:03 - INF0 - _main_ - Valid Accuracy: 0.94625
+04/04/2023 20:01:03 - INF0 - _main__ - Valid Accuracy: 0.94625
 
 The average AUROC is 0.650
 The AUROC of Atelectasis is 0.6876505433368025
