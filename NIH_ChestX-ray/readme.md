@@ -1,8 +1,4 @@
-### Result in Paper
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/69680257/229978883-8ca21700-b3f9-41e4-9d54-0cff3c92bf58.png">
-
-
-### Replication Result
+### Output
 
 1 percent:
 
