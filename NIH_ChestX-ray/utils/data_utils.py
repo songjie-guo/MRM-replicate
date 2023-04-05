@@ -17,7 +17,6 @@ def get_loader(args):
         torch.distributed.barrier()
 
     transform_train = transforms.Compose([
-        # transforms.Pad(args.img_size), #debug code
         transforms.RandomResizedCrop((args.img_size, args.img_size)),
         transforms.RandomHorizontalFlip(),
         transforms.Grayscale(num_output_channels=3),
