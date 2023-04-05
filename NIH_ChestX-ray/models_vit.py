@@ -42,6 +42,7 @@ class VisionTransformer(timm.models.vision_transformer.VisionTransformer):
         for blk in self.blocks:
             x = blk(x)
 
+        # NOTE DOWN
         # if self.global_pool:
         #     x = x[:, 1:, :].mean(dim=1)  # global pool without cls token
         #     outcome = self.fc_norm(x)
