@@ -42,7 +42,6 @@ def get_loader(args):
                             sampler=test_sampler,
                             batch_size=args.eval_batch_size//get_world_size(),
                             num_workers=10,
-                            # collate_fn=collate_fn,
                             pin_memory=True) if testset is not None else None
 
         return test_loader
@@ -61,13 +60,11 @@ def get_loader(args):
                               sampler=train_sampler,
                               batch_size=args.train_batch_size//get_world_size(),
                               num_workers=10,
-                            #   collate_fn=collate_fn,
                               pin_memory=True)
     val_loader = DataLoader(valset,
                              sampler=val_sampler,
                              batch_size=args.eval_batch_size//get_world_size(),
                              num_workers=10,
-                            #  collate_fn=collate_fn,
                              pin_memory=True) if valset is not None else None
 
     return train_loader, val_loader
