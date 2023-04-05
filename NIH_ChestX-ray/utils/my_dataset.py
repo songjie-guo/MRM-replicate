@@ -42,8 +42,10 @@ class XRAY(data.Dataset):
         #---- get into the loop
         line = True
         
-        # root_tmp = os.path.join(root,self.split,"all_classes") #it is better to delete "self.split", so no "train" folder is needed
-        root_tmp = os.path.join(root,"train","all_classes")
+        # originally,
+        # root_tmp = os.path.join(root,self.split,"all_classes") 
+        #it is better to delete "self.split", since all images are in the same folder without split on train-valid-test
+        root_tmp = os.path.join(root,"all_classes")
 
         while line:
                 
