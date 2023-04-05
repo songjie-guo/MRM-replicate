@@ -1,3 +1,7 @@
+### Result in Paper
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/69680257/229978883-8ca21700-b3f9-41e4-9d54-0cff3c92bf58.png">
+
+
 ### Replication Result
 
 1 percent:
@@ -31,6 +35,7 @@ The AUROC of Hernia is 0.6263129784582517
 04/05/2023 12:05:09 - INFO - __main__ - Validation Results
 04/05/2023 12:05:09 - INFO - __main__ - Valid Loss: 0.15681
 04/05/2023 12:05:09 - INFO - __main__ - Valid Accuracy: 0.94549
+
 The average AUROC is 0.821
 The AUROC of Atelectasis is 0.8061750921326047
 The AUROC of Cardiomegaly is 0.9182654627830326
