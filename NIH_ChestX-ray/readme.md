@@ -1,4 +1,4 @@
-### Replicattion Result
+### Replication Result
 
 1 percent:
 
