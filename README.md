@@ -9,4 +9,4 @@
 |-------------|----------------------|--------------------|----------------------|
 |     NIH     |     0.650            |    0.821           |                      |
 
-See **details** under each downstream tasks folder's readme.md.
+See **details** under each downstream task folder's readme.md.
