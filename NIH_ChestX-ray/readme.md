@@ -51,4 +51,23 @@ The AUROC of Hernia is 0.84307162779657
 ---
 100 percent:
 ```
+04/06/2023 16:50:35 - INFO - __main__ - Validation Results
+04/06/2023 16:50:35 - INFO - __main__ - Valid Loss: 0.14796
+04/06/2023 16:50:35 - INFO - __main__ - Valid Accuracy: 0.94661
+
+The average AUROC is 0.848
+The AUROC of Atelectasis is 0.8387022093635104
+The AUROC of Cardiomegaly is 0.9424791270770035
+The AUROC of Effusion is 0.8790933028879151
+The AUROC of Infiltration is 0.7090377960785863
+The AUROC of Mass is 0.8637560461141215
+The AUROC of Nodule is 0.7683939913489201
+The AUROC of Pneumonia is 0.7556935817805384
+The AUROC of Pneumothorax is 0.8832888319687549
+The AUROC of Consolidation is 0.826282533155818
+The AUROC of Edema is 0.9001002743136396
+The AUROC of Emphysema is 0.9384754203216376
+The AUROC of Fibrosis is 0.851997553137412
+The AUROC of Pleural_Thickening is 0.8191444708795141
+The AUROC of Hernia is 0.8938460625482167
 ```
