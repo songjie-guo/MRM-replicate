@@ -13,6 +13,6 @@ ERROR: Could not install requirement https://download.openmmlab.com/mmcv/dist/cu
 because of HTTP error 404 Client Error: Not Found for url: https://download.openmmlab.com/mmcv/dist/cu111/torch1.6.0/index.html 
 for URL https://download.openmmlab.com/mmcv/dist/cu111/torch1.6.0/index.html
 ```
-- It also strictly requires mmcv version in mmseg/__init__.py, and got `AssertionError: MMCV==1.7.1 is used but incompatible. Please install mmcv>=(1, 3, 13, 0, 0, 0), <=(1, 6, 0, 0, 0, 0).` by using MMCV==1.7.1
+- It also strictly requires mmcv version in mmseg/__init__.py, and got `AssertionError: MMCV==1.7.1 is used but incompatible. Please install mmcv>=(1, 3, 13, 0, 0, 0), <=(1, 6, 0, 0, 0, 0).` if using MMCV==1.7.1
 
 TAT
