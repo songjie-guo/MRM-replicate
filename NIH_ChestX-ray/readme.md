@@ -71,3 +71,20 @@ The AUROC of Fibrosis is 0.851997553137412
 The AUROC of Pleural_Thickening is 0.8191444708795141
 The AUROC of Hernia is 0.8938460625482167
 ```
+
+When I pretrained the model and 1 percent:
+The average AUROC is 0.686
+The AUROC of Atelectasis is 0.6889018534338349
+The AUROC of Cardiomegaly is 0.7864800480026529
+The AUROC of Effusion is 0.7759327759006036
+The AUROC of Infiltration is 0.6696682140736198
+The AUROC of Mass is 0.5999757549308409
+The AUROC of Nodule is 0.6266125805340573
+The AUROC of Pneumonia is 0.6523217982845311
+The AUROC of Pneumothorax is 0.7166475229988737
+The AUROC of Consolidation is 0.7565677652691863
+The AUROC of Edema is 0.8169475115834121
+The AUROC of Emphysema is 0.5775858918128656
+The AUROC of Fibrosis is 0.6028862639682252
+The AUROC of Pleural_Thickening is 0.5966043830635022
+The AUROC of Hernia is 0.7317903981959528
