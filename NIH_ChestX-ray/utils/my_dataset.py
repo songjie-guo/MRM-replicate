@@ -37,7 +37,7 @@ class XRAY(data.Dataset):
            
         #---- Open file, get image paths and labels
         
-        fileDescriptor = open(os.path.join(root,downloaded_data_label_txt), "r")
+        fileDescriptor = open(os.path.join(root,"master",downloaded_data_label_txt), "r")
         
         #---- get into the loop
         line = True
