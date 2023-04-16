@@ -42,16 +42,16 @@ class VisionTransformer(timm.models.vision_transformer.VisionTransformer):
         for blk in self.blocks:
             x = blk(x)
 
-        # NOTE DOWN
-        # if self.global_pool:
-        #     x = x[:, 1:, :].mean(dim=1)  # global pool without cls token
-        #     outcome = self.fc_norm(x)
-        # else:
-        #     x = self.norm(x)
-        #     outcome = x[:, 0]
+        # note down if you use MRM.pth directly, and not note down if you use self-pretrained model.
+        if self.global_pool:
+            x = x[:, 1:, :].mean(dim=1)  # global pool without cls token
+            outcome = self.fc_norm(x)
+        else:
+            x = self.norm(x)
+            outcome = x[:, 0]
 
-        return x
-        # return outcome
+        # return x
+        return outcome
 
 def get_b16_config():
     """Returns the ViT-B/16 configuration."""
